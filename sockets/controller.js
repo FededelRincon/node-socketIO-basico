@@ -27,7 +27,7 @@ const socketController = ( socket ) => {
         // });
         
         //envia msj a si mismo...
-        socket.emit('enviar-mensaje', payload) 
+        // socket.emit('enviar-mensaje', payload) 
 
         //envia msj a todos
         socket.broadcast.emit('enviar-mensaje', payload) 
